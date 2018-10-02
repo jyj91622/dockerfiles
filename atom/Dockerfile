@@ -60,3 +60,4 @@ RUN apt-get update && apt-get install -y \
 
 # Autorun atom
 ENTRYPOINT [ "atom", "--foreground" ]
+
